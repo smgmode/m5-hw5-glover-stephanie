@@ -1,26 +1,21 @@
-var listItem = document.querySelectorAll('hero-section');
+//Change the button background color when using mouseenter
+document.getElementById("box1").addEventListener("mouseenter",
+  function() {
+  document.getElementById("box1").style.backgroundColor = "#DC143C";
+  document.getElementById("box1").style.color = "#FF4500";
+}, false
+);
 
-//Function to Toggle "show" Class on Hover
-function myFunction() {
-  this.classList.toggle('show');
-}
+document.getElementById("box2").addEventListener("mouseenter",
+  function() {
+  document.getElementById("box2").style.backgroundColor = "#FF00FF";
+  document.getElementById("box2").style.color = "#8B008B";
+}, false
+);
 
-//Function to Add Class Red to All List Items
-function addClassToAll(){
-  for(i=0; i<listenItem.length;i++) {
-    listenItem[i].classList.add('red');
-  }
-}
-
-//Even Listener In a loop
-for(i=0; i<listenItem.length; i++) {
-  listItem[i].addEventListener('click',andClassToAll);
-}
-
-
-//Event Listeners in a loop to Apply Mouseenter and Mouseleave
-for (i=0; i<listenItem.length;i++) {
-  listItem[i].addEventListener('mouseenter', myFunction);
-  listItem[i].addEventListener('mouseleave', myFunction);
-
-}
+document.getElementById("box3").addEventListener("mouseenter",
+  function() {
+  document.getElementById("box3").style.backgroundColor = "#CD853F";
+  document.getElementById("box3").style.color = "#FFA500";
+}, false
+);

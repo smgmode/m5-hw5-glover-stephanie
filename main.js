@@ -6,7 +6,7 @@ var box1 = document.getElementById ("box1").addEventListener("click",
 
 var box2 = document.getElementById ("box2").addEventListener("click",
   function () {
-   alert("Oooh - so close, but no cigar");
+   alert("Ding Ding Ding - We have a winner");
   }, false
 );
 

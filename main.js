@@ -1,3 +1,21 @@
+var box1 = document.getElementById ("box1").addEventListener("click",
+  function () {
+   alert("Oooh - so close, but no cigar");
+  }, false
+);
+
+var box2 = document.getElementById ("box2").addEventListener("click",
+  function () {
+   alert("Oooh - so close, but no cigar");
+  }, false
+);
+
+var box3 = document.getElementById ("box3").addEventListener("click",
+  function () {
+   alert("Oooh - so close, but no cigar");
+  }, false
+);
+
 //Change the button background color when using mouseenter
 document.getElementById("box1").addEventListener("mouseenter",
   function() {

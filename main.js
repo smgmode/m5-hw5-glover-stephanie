@@ -12,9 +12,20 @@ var box2 = document.getElementById ("box2").addEventListener("click",
 
 var box3 = document.getElementById ("box3").addEventListener("click",
   function () {
-   alert("Oooh - so close, but no cigar");
+   alert("Oops, better luck next time");
   }, false
 );
+
+//When any three boxes are clicked, have a button that says "Start Over"
+var home = document.getElementById ("home"),
+    firstbutton = document.getElementById ("firstbutton");
+ home.addEventListener("click", function (event) {
+  event.preventDefault ();
+  firstbutton.style.display = (firstbutton.style.display === "none") ? "block" :
+  "none";
+}, false);
+  firstbutton.style.display = "none";
+
 
 //Change the button background color when using mouseenter
 document.getElementById("box1").addEventListener("mouseenter",

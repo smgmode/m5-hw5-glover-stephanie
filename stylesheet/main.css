@@ -59,3 +59,12 @@ nav {
   margin: 1% 1% 1% 1%;
   max-width: 20%;
 }
+
+#firstbutton {
+  width: 20%;
+  height: 20%;
+	border-style: dashed;
+	border-color: blue;
+	border-width: thick;
+  text-align: center;
+}

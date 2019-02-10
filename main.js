@@ -1,18 +1,21 @@
+//When user clicks on box #1 message will appear
 var box1 = document.getElementById ("box1").addEventListener("click",
   function () {
-   alert("Oooh - so close, but no cigar");
+   alert("Oooh - so close, but no cigar!");
   }, false
 );
 
+//When user clicks on box #2 message will appear
 var box2 = document.getElementById ("box2").addEventListener("click",
   function () {
-   alert("Ding Ding Ding - We have a winner");
+   alert("Ding Ding Ding - We have a winner!");
   }, false
 );
 
+//when user clicks on box #3 message will appear
 var box3 = document.getElementById ("box3").addEventListener("click",
   function () {
-   alert("Oops, better luck next time");
+   alert("Oops, better luck next time!");
   }, false
 );
 
@@ -27,7 +30,7 @@ var home = document.getElementById ("home"),
   firstbutton.style.display = "none";
 
 
-//Change the button background color when using mouseenter
+//Change the button background color when using mouseenter on all boxes
 document.getElementById("box1").addEventListener("mouseenter",
   function() {
   document.getElementById("box1").style.backgroundColor = "#DC143C";
